@@ -1,0 +1,75 @@
+/* outerbody style */
+#calcbody{
+    height:630px;
+    width:430px;
+    background-color: darkslategrey;
+    border-style: solid;
+    box-shadow: 2px 5px 5px 0px black;
+    border-width: 10px;
+    border-radius: 40px;
+}
+/* display outer style */
+#displayScreen{
+    height: 55px;
+    width: 350px;
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 5px;
+    border-style: solid;
+    border-width: 9px;
+    border-color: #9e9e9e;
+    border-radius: 30px;
+}
+/* display inner input style */
+#screen{
+    height: 46px;
+    width: 335px;
+    margin-left: 3px;
+    margin-top: 4px;
+    border-radius: 10px;
+    background-color: black;
+    pointer-events: none;
+    border-style: none;
+    color:white;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* buttons row style */
+#buttons{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+/* button style */
+.btn{
+    height:55px;
+    width:72px;
+    margin-right: 10px;
+    background-color: darkslateblue;
+    border-color:darkslateblue;
+    border-radius: 20px;
+    font-size: 40px;
+    color: white;
+    box-shadow: 2px 2px black;
+}
+.btn:hover{
+    color:black;
+    background-color: blue;
+    transition: ease-in 0.2s;
+}
+.clr:hover{
+    color:black;
+    background-color: blue;
+    transition: ease-in 0.2s;
+}
+/* clear button style */
+.clr{
+    height:55px;
+    width:330px;
+    margin-right: 10px;
+    background-color: darkslateblue;
+    border-color:darkslateblue;
+    border-radius: 20px;
+    font-size: 40px;
+    color: white;
+    box-shadow: 2px 2px black;
+}
